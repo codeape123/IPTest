@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Dll</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Dll</Filter>
+    </ClCompile>
+    <ClCompile Include="RtpBase.cpp">
+      <Filter>jrtplib</Filter>
+    </ClCompile>
+    <ClCompile Include="RtpReceive.cpp">
+      <Filter>jrtplib</Filter>
+    </ClCompile>
+    <ClCompile Include="RtpSend.cpp">
+      <Filter>jrtplib</Filter>
+    </ClCompile>
+    <ClCompile Include="RtpUtil.cpp">
+      <Filter>jrtplib</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Inc\RtpExp.h">
+      <Filter>Dll</Filter>
+    </ClInclude>
+    <ClInclude Include="RtpExt.h">
+      <Filter>Dll</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Dll</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Dll</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="RtpBase.h">
+      <Filter>jrtplib</Filter>
+    </ClInclude>
+    <ClInclude Include="RtpReceive.h">
+      <Filter>jrtplib</Filter>
+    </ClInclude>
+    <ClInclude Include="RtpSend.h">
+      <Filter>jrtplib</Filter>
+    </ClInclude>
+    <ClInclude Include="RtpUtil.h">
+      <Filter>jrtplib</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Dll">
+      <UniqueIdentifier>{03961d60-b3d3-40a2-aec9-a0fc7e34c96d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource">
+      <UniqueIdentifier>{1331aa7f-052e-43f4-acdc-1593fc9e070b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="jrtplib">
+      <UniqueIdentifier>{d6ed6d18-61c0-4490-93cb-aa81bc8b6c91}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\Rtp.rc2">
+      <Filter>Resource</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Rtp.rc">
+      <Filter>Resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

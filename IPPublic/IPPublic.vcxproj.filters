@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Dll">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Util">
+      <UniqueIdentifier>{870af4dd-8c3f-49e7-a770-878edb5e63a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util\CBTask">
+      <UniqueIdentifier>{659e1473-713c-48ca-a9d3-9ce685055dff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util\Event">
+      <UniqueIdentifier>{6645a10a-574f-4435-8c5d-1c0c23f0314e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util\Ringbuffer">
+      <UniqueIdentifier>{1562a678-57b9-476e-ac4c-daaec2546ade}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IPDefine">
+      <UniqueIdentifier>{1f517ccd-def8-49f8-9f8a-b5b66bf83316}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util\Net">
+      <UniqueIdentifier>{0d01b614-b761-44af-bcef-d77a42e0c4b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Setting">
+      <UniqueIdentifier>{b32da4a1-d665-4a2f-bd98-b2de06f52510}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Dll</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Dll</Filter>
+    </ClCompile>
+    <ClCompile Include="CBTask.cpp">
+      <Filter>Util\CBTask</Filter>
+    </ClCompile>
+    <ClCompile Include="IPEvent.cpp">
+      <Filter>Util\Event</Filter>
+    </ClCompile>
+    <ClCompile Include="RingBuffer.cpp">
+      <Filter>Util\Ringbuffer</Filter>
+    </ClCompile>
+    <ClCompile Include="NetUtil.cpp">
+      <Filter>Util\Net</Filter>
+    </ClCompile>
+    <ClCompile Include="GlobalSetting.cpp">
+      <Filter>Setting</Filter>
+    </ClCompile>
+    <ClCompile Include="NetIPAddrDlg.cpp">
+      <Filter>Util\Net</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\IPPublic.rc2">
+      <Filter>Resource</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Dll</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Dll</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="CBTask.h">
+      <Filter>Util\CBTask</Filter>
+    </ClInclude>
+    <ClInclude Include="IPEvent.h">
+      <Filter>Util\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="RingBuffer.h">
+      <Filter>Util\Ringbuffer</Filter>
+    </ClInclude>
+    <ClInclude Include="PublicDefine.h">
+      <Filter>IPDefine</Filter>
+    </ClInclude>
+    <ClInclude Include="IPPublicExt.h">
+      <Filter>Dll</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Inc\IPPublicExp.h">
+      <Filter>Dll</Filter>
+    </ClInclude>
+    <ClInclude Include="NetUtil.h">
+      <Filter>Util\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="GlobalSetting.h">
+      <Filter>Setting</Filter>
+    </ClInclude>
+    <ClInclude Include="NetIPAddrDlg.h">
+      <Filter>Util\Net</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="IPPublic.rc">
+      <Filter>Resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

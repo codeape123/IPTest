@@ -1,0 +1,7 @@
+/////////////////////////////////////////////////////////////////////
+
+#pragma once
+
+#include "../IPPublic/IPPublicExt.h"
+
+#pragma comment(lib, "IPPublic.lib")

@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "IPPublic", "IPPublic\IPPublic.vcxproj", "{C8698230-9D31-41A5-90CC-5AA76C2EC2B8}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FFCodec", "FFCodec\FFCodec.vcxproj", "{B22C8A6C-5161-4279-8038-D9505B226204}"
+	ProjectSection(ProjectDependencies) = postProject
+		{C8698230-9D31-41A5-90CC-5AA76C2EC2B8} = {C8698230-9D31-41A5-90CC-5AA76C2EC2B8}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "IPSenderApp", "IPSender\IPSender.vcxproj", "{1394197F-E0B3-4849-A18F-13DE5B8C7DCE}"
+	ProjectSection(ProjectDependencies) = postProject
+		{C8698230-9D31-41A5-90CC-5AA76C2EC2B8} = {C8698230-9D31-41A5-90CC-5AA76C2EC2B8}
+		{4414915A-1EF8-4974-9E66-0CC44F4CD32F} = {4414915A-1EF8-4974-9E66-0CC44F4CD32F}
+		{B22C8A6C-5161-4279-8038-D9505B226204} = {B22C8A6C-5161-4279-8038-D9505B226204}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "IPReceiverApp", "IPReceiver\IPReceiver.vcxproj", "{3298103E-752A-4358-9EAB-5BC62D1E9152}"
+	ProjectSection(ProjectDependencies) = postProject
+		{C8698230-9D31-41A5-90CC-5AA76C2EC2B8} = {C8698230-9D31-41A5-90CC-5AA76C2EC2B8}
+		{4414915A-1EF8-4974-9E66-0CC44F4CD32F} = {4414915A-1EF8-4974-9E66-0CC44F4CD32F}
+		{B22C8A6C-5161-4279-8038-D9505B226204} = {B22C8A6C-5161-4279-8038-D9505B226204}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Rtp", "Rtp\Rtp.vcxproj", "{4414915A-1EF8-4974-9E66-0CC44F4CD32F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C8698230-9D31-41A5-90CC-5AA76C2EC2B8}.Debug|x64.ActiveCfg = Debug|x64
+		{C8698230-9D31-41A5-90CC-5AA76C2EC2B8}.Debug|x64.Build.0 = Debug|x64
+		{C8698230-9D31-41A5-90CC-5AA76C2EC2B8}.Release|x64.ActiveCfg = Release|x64
+		{C8698230-9D31-41A5-90CC-5AA76C2EC2B8}.Release|x64.Build.0 = Release|x64
+		{B22C8A6C-5161-4279-8038-D9505B226204}.Debug|x64.ActiveCfg = Debug|x64
+		{B22C8A6C-5161-4279-8038-D9505B226204}.Debug|x64.Build.0 = Debug|x64
+		{B22C8A6C-5161-4279-8038-D9505B226204}.Release|x64.ActiveCfg = Release|x64
+		{B22C8A6C-5161-4279-8038-D9505B226204}.Release|x64.Build.0 = Release|x64
+		{1394197F-E0B3-4849-A18F-13DE5B8C7DCE}.Debug|x64.ActiveCfg = Debug|x64
+		{1394197F-E0B3-4849-A18F-13DE5B8C7DCE}.Debug|x64.Build.0 = Debug|x64
+		{1394197F-E0B3-4849-A18F-13DE5B8C7DCE}.Release|x64.ActiveCfg = Release|x64
+		{1394197F-E0B3-4849-A18F-13DE5B8C7DCE}.Release|x64.Build.0 = Release|x64
+		{3298103E-752A-4358-9EAB-5BC62D1E9152}.Debug|x64.ActiveCfg = Debug|x64
+		{3298103E-752A-4358-9EAB-5BC62D1E9152}.Debug|x64.Build.0 = Debug|x64
+		{3298103E-752A-4358-9EAB-5BC62D1E9152}.Release|x64.ActiveCfg = Release|x64
+		{3298103E-752A-4358-9EAB-5BC62D1E9152}.Release|x64.Build.0 = Release|x64
+		{4414915A-1EF8-4974-9E66-0CC44F4CD32F}.Debug|x64.ActiveCfg = Debug|x64
+		{4414915A-1EF8-4974-9E66-0CC44F4CD32F}.Debug|x64.Build.0 = Debug|x64
+		{4414915A-1EF8-4974-9E66-0CC44F4CD32F}.Release|x64.ActiveCfg = Release|x64
+		{4414915A-1EF8-4974-9E66-0CC44F4CD32F}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
